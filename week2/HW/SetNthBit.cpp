@@ -1,5 +1,11 @@
 #include<iostream>
 using namespace std;
+
+int SetNthBit(int n,int k)
+{
+    int x=1<<k;
+    return x|n;
+}
 int main()
 {
     int n,k;
@@ -7,10 +13,6 @@ int main()
     cin>>n;
     cout<<" enter the number K: "<<endl;
     cin>>k;
-    int SetNthBit(n,k);
-}
-
-int SetNthBit(int n,int k)
-{
-    k=
+    cout<<n<<" shifting "<<k<<" times: "<<SetNthBit(n,k);
+    return 0;
 }
