@@ -18,9 +18,9 @@ int main()
     vector<vector<int> >vd={{1,2,3,4},{4,5,6,7},{7,8,9,0}};
     cout<<"printing 2d vector: "<<endl;
 
-    for(int i=0;i<3;i++)
+    for(int i=0;i<3;i++)            //j.size()=row size=3
     {
-        for(int j=0;j<4;j++)
+        for(int j=0;j<4;j++)        //j[0].size()=column size=4
         {
             cout<<vd.at(i).at(j)<<" ";
         }

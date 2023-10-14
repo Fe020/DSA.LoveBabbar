@@ -43,7 +43,7 @@ void revDigSum(int a[4][4])
             }
         }
     }
-    cout<<"sum of diagonal elements ="<<sum<<endl;
+    cout<<"sum of rev diagonal elements ="<<sum<<endl;
     cout<<endl;
 
 }
