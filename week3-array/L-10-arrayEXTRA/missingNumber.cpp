@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+
 using namespace std;
 
 int missingNum(vector<int>v)

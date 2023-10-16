@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 
 void printMatrix(const vector<vector<int> >&v)
@@ -24,11 +25,21 @@ void rotateMatrix(vector<vector<int> > v)
             swap(v[i][j],v[j][i]);
         }
     }
+    // for(int i=0;i<v.size();i++)
+    // {
+    //     for(int j=0;j<v[i].size()/2;j++)
+    //     {
+    //         swap(v[i][j],v[i][2 - j]);
+    //     }
+    // }
+
+    // or
+    
     for(int i=0;i<v.size();i++)
     {
-        for(int j=0;j<v[i].size()/2;j++)
+        for(int j=0;j<v[i].size();j++)
         {
-            swap(v[i][j],v[i][2 - j]);
+            reverse(v[i].begin(),v[i].end());
         }
     }
     printMatrix(v);

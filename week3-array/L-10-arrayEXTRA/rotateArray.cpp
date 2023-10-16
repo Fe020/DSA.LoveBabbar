@@ -91,30 +91,30 @@
 // method 3- lappu sa to method h
 
 
-#include<iostream>
-#include<vector>
-#include<algorithm>
-using namespace std;
+// #include<iostream>
+// #include<vector>
+// #include<algorithm>
+// using namespace std;
 
-void printVector(vector<int> v)
-{
-    for(auto i: v)
-    {
-        cout<<i<<" ";
-    }
-    cout<<endl;
-}
-void rotatedVector(vector<int> v,int k)
-{
-    reverse(v.begin(),v.end());
-    reverse(v.begin(),v.begin()+k);
-    reverse(v.begin()+k,v.end());
-    printVector(v);
-}
+// void printVector(vector<int> v)
+// {
+//     for(auto i: v)
+//     {
+//         cout<<i<<" ";
+//     }
+//     cout<<endl;
+// }
+// void rotatedVector(vector<int> v,int k)
+// {
+//     reverse(v.begin(),v.end());
+//     reverse(v.begin(),v.begin()+k);
+//     reverse(v.begin()+k,v.end());
+//     printVector(v);
+// }
 
-int main()
-{
-    vector<int> v={0,1,2,3,4,5,6,7,8,9,10};
-    int k=3;
-    rotatedVector(v,k);
-}
+// int main()
+// {
+//     vector<int> v={0,1,2,3,4,5,6,7,8,9,10};
+//     int k=3;
+//     rotatedVector(v,k);
+// }
