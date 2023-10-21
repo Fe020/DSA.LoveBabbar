@@ -1,5 +1,4 @@
 //here, pivot is defined as a number where sum of left = sum of right
-
 #include<iostream>
 #include<vector>
 using namespace std;
